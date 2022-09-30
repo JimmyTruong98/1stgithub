@@ -1,0 +1,112 @@
+/* reset margin, padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.banner {
+    height: 853px;
+    background: url('./banner.jpg') center center no-repeat;
+
+    .about-sign-in {
+
+        height: 80px;
+        width: 100%;
+        text-align: right;
+        text-decoration: none;
+        padding: 50px;
+
+
+        .about,
+        .sign-in {
+
+            text-decoration: none;
+            font-size: 18px;
+            text-transform: uppercase;
+            border-radius: 20px;
+            padding: 8px;
+            width: 100%;
+
+        }
+
+        .about {
+            margin-right: 30px;
+            font-family: 'Brush Script MT', cursive;
+        }
+
+        .sign-in {
+            margin-right: 400px;
+            margin-left: 5px;
+            border-radius: 20px;
+            border: 3px solid green;
+
+            font-family: 'Brush Script MT', cursive;
+        }
+    }
+
+    .logo {
+        background: url('hapoERP.png') center center no-repeat;
+        height: 200px;
+        size: 30px;
+    }
+
+    .text {
+        text-align: center;
+        margin-top: 30px;
+
+        span {
+            display: block;
+
+        }
+    }
+
+    .btn-start-now {
+        text-align: center;
+
+        button {
+            text-transform: uppercase;
+            padding: 10px 20px;
+            border: 3px solid green;
+            border-radius: 20px;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+    }
+
+    .content-center {
+
+
+        .left,
+        .right,
+        .center {
+            display: inline-block;
+            width: 33%;
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+
+            span {
+                display: block;
+                padding-top: 5px;
+                font-size: 24px;
+                font-family: Georgia, serif;
+            }
+
+            ;
+
+            img {
+                width: 50px;
+                height: 50px;
+            }
+
+        }
+    }
+}
